@@ -1,0 +1,28 @@
+{
+    "name": "zerosonesfun/audio",
+    "description": "BBCode - Audio",
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Billy Wilcosky",
+            "role": "Creator"
+        }
+    ],
+    "require": {
+        "flarum/core": ">=0.1.0-beta.14 <0.1.0-beta.15"
+    },
+    "autoload": {
+        "psr-4": {"ZerosOnesFun\\audio\\": "src/"}
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "BBCode - Audio",
+            "icon": {
+                "name": "fas fa-bold",
+                "backgroundColor": "#ddd",
+                "color": "#000"
+            }
+        }
+    }
+}
